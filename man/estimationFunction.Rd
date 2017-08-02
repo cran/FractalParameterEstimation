@@ -31,9 +31,9 @@ estimationFunction(daten, decs)
 %% ...
 }
 \references{
-Hermann, P.,  Mrkvicka, T., Mattfeldt, T., Minarova, M., Helisova, K., Nicolis, O., Wartner, F., and Stehlik, M. (2015). Fractal and stochastic geometry inference for breast cancer: a case study with random fractal models and Quermass-interaction process. Statistics in Medicine.  doi: 10.1002/sim.6497.
+Hermann, P.,  Mrkvicka, T., Mattfeldt, T., Minarova, M., Helisova, K., Nicolis, O., Wartner, F., and Stehlik, M. (2015). Fractal and stochastic Geometry Inference for Breast Cancer: a Case Study with Random Fractal Models and Quermass-Interaction Process. \emph{Statistics in Medicine}, \strong{34}(18), 2636-2661. doi: 10.1002/sim.6497.
 }
-\author{Philipp Hermann, philipp.hermann@aon.at
+\author{Philipp Hermann, philipp.hermann@jku.at
 %%  ~~who you are~~
 }
 %\note{
@@ -63,3 +63,6 @@ estimationFunction(Data0603)
 % R documentation directory.
 %\keyword{ ~kwd1 }
 %\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{methods}
+\keyword{models}
+\keyword{list}

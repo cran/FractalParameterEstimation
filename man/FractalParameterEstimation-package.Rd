@@ -3,7 +3,7 @@
 %\alias{Fractal Parameter Estimation}
 \docType{package}
 \title{
-Estimation of Parameters p and q for Randomized Sierpinski Carpet for [p-p-p-q]-Model
+Estimation of Parameters p and q for Randomized Sierpinski Carpet for p-p-p-q-Model
 }
 \description{
 For data consisting of zeros and ones the parameters p and q are estimated on basis of randomized Sierpinksi Carpets. This is done with the aid of [p,p,p,q]-models. Main function estimationFunction(daten, decs) is called and delivers the two estimates rounded on four decimal places. The estimates are calculated with respect to one ramification step, i.e. the last step for q and the third step for p. The function "createsmallerMatrix" enables to calculate the "underlying" matrix on basis of the main matrix. Hence, this computed matrix is filled with special algorithm with values zero respectively one according to numbers of the original data. 
@@ -14,8 +14,8 @@ For data consisting of zeros and ones the parameters p and q are estimated on ba
 \tabular{ll}{
 Package: \tab FractalParameterEstimation\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2015-06-30\cr
+Version: \tab 1.1\cr
+Date: \tab 2017-03-22\cr
 License: \tab GPL (>= 2)\cr
 LazyData: true
 }
@@ -23,15 +23,20 @@ Call function estimationFunction(daten, decs) and it will deliver estimations fo
 }
 \author{
 Philipp Hermann, philipp.hermann@jku.at
-
+Jozef Kiselak, jozef.kiselak@upjs.sk
 Maintainer: Philipp Hermann <philipp.hermann@jku.at>
 
 }
 \references{
-Hermann, P.,  Mrkvicka, T., Mattfeldt, T., Minarova, M., Helisova, K., Nicolis, O., Wartner, F., and Stehlik, M. (2015). Fractal and stochastic geometry inference for breast cancer: a case study with random fractal models and Quermass-interaction process. Statistics in Medicine.  doi: 10.1002/sim.6497.
+Hermann, P.,  Mrkvicka, T., Mattfeldt, T., Minarova, M., Helisova, K., Nicolis, O., Wartner, F., and Stehlik, M. (2015). Fractal and stochastic Geometry Inference for Breast Cancer: a Case Study with Random Fractal Models and Quermass-Interaction Process. \emph{Statistics in Medicine}, \strong{34}(18), 2636-2661. doi: 10.1002/sim.6497.
 }
 
 \keyword{ package }
+\keyword{methods}
+\keyword{array}
+\keyword{distribution}
+\keyword{models}
+\keyword{list}
 %\seealso{
 %~~ Optional links to other man pages, e.g. ~~
 %~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
