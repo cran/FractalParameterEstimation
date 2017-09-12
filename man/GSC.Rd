@@ -35,8 +35,8 @@ This function creates a matrix of size \code{3^N x 3^N} containing simulated zer
 Hermann, P.,  Mrkvicka, T., Mattfeldt, T., Minarova, M., Helisova, K., Nicolis, O., Wartner, F., and Stehlik, M. (2015). Fractal and stochastic Geometry Inference for Breast Cancer: a Case Study with Random Fractal Models and Quermass-Interaction Process. \emph{Statistics in Medicine}, \strong{34}(18), 2636-2661. doi: 10.1002/sim.6497.
 }
 \author{
-Philipp Hermann;  Jozef Kiselak. \\
-philipp.hermann@jku.at; jozef.kiselak@upjs.sk
+Philipp Hermann; Jozef Kiselak; Milan Stehlik\\
+philipp.hermann@jku.at; jozef.kiselak@upjs.sk; mlnstehlik@gmail.com
 }
 %\note{
 %%  ~~further notes~~
